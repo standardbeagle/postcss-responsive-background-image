@@ -1,0 +1,34 @@
+{
+  "name": "postcss-responsive-background",
+  "version": "0.0.0",
+  "description": "PostCSS plugin that creates smaller copies of a background image according to predefined responsive breakpoints, and generates the correct css in order to save bandwith and memory on small screen devices.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "responsive",
+    "background",
+    "images"
+  ],
+  "author": "Andy Brummer <andybrummer@standardbeagle.com>",
+  "license": "MIT",
+  "repository": "andylbrummer/postcss-responsive-background",
+  "bugs": {
+    "url": "https://github.com/andylbrummer/postcss-responsive-background/issues"
+  },
+  "homepage": "https://github.com/andylbrummer/postcss-responsive-background",
+  "dependencies": {
+    "postcss": "^5.0.21"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "eslint": "^2.10.0",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
